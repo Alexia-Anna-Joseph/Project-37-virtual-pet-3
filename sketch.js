@@ -25,6 +25,7 @@ function setup() {
   fedTime=database.ref('FeedTime');
   fedTime.on("value",function(data){
     lastFed=data.val();
+    console.log(lastFed)
   });
 
   //read game state from database

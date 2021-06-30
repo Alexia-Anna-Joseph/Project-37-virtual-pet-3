@@ -33,6 +33,7 @@ class Food {
         }else if(lastFed==0){
             text("Last Feed : 12 AM",50,30);
         }else{
+          console.log(lastFed)
             text("Last Feed : "+ lastFed + " AM", 50,30);
         }
         var x=70,y=100; 
